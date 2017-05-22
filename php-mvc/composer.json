@@ -1,0 +1,19 @@
+{
+    "name": "son/mvc",
+    "authors": [
+        {
+            "name": "alex",
+            "email": "aafonso.93@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+
+    "autoload": {
+        "psr-4" : {
+            "SON\\":"vendor/SON/",
+            "App\\":"App/"
+        }
+    }
+}
